@@ -1,0 +1,7 @@
+package org.lizardoreyes.permissionskmp
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
